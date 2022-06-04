@@ -3,7 +3,7 @@ from pytube import YouTube
 
 root = Tk()
 root.configure(bg = "#595858")
-root.minsize(600, 400)
+root.minsize(650, 400)
 root.title("YouTube Video Downloader")
 
 #==============================================================================
