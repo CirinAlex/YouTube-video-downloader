@@ -3,7 +3,7 @@ from pytube import YouTube
 
 root = Tk()
 root.configure(bg = "#595858")
-root.minsize(850, 500)
+root.minsize(600, 400)
 root.title("YouTube Video Downloader")
 
 #==============================================================================
@@ -16,7 +16,7 @@ def avail():
         return 1
         
     except Exception:
-        warn = Label(root, text = "Incorrect URL !", bg = "#595858")
+        warn = Label(root, text = "Incorrect URL !", bg = "#595858", fg = "white")
         warn.place(relx = 0.25, rely = 0.28)
         return 0
 
